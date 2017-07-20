@@ -1,6 +1,6 @@
 class Boardcase
 
 	def initialize 
-		@status = ""
+		@status = " "
 	end
 end

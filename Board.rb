@@ -7,7 +7,7 @@ class Board
 	end
 
 	def show_board
-		#affichage des 9 cases
+		puts "#{ } | "
 	end
 
 end
