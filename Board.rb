@@ -7,7 +7,14 @@ class Board
 	end
 
 	def show_board
-		puts "#{ } | "
+		#affichage des 9 cases
+		# remplacer X O et _ par Boradcase1, 2, etc...
+
+		puts "  X  |     |  X  "
+		puts "-----------------"
+		puts "     |  O  |     "
+		puts "-----------------"
+		puts "  O  |     |  X  "
 	end
 
 end
