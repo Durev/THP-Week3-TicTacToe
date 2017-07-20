@@ -1,9 +1,10 @@
 require_relative 'Player'
 require_relative 'Board'
 require_relative 'Boardcase'
-# require 'pry'
 
 class Game
+
+	attr_accessor :board
 
 	def initialize
 		#Création des 2 joueurs
@@ -16,29 +17,11 @@ class Game
 
 		#Création du plateau
 		@board = Board.new
-		
 	end
 
-	def show_board
-		#affichage des 9 cases
-		# remplacer X O et _ par Boradcase1, 2, etc...
-
-		# puts "  #{@a1.status}  |  #{@a2.status}  |  #{@a3.status}  "
-		# puts "-----------------"
-		# puts "  #{@b1.status}  |  #{@b2.status}  |  #{@b3.status}  "
-		# puts "-----------------"
-		# puts "  #{@c1.status}  |  #{@c2.status}  |  #{@c3.status}  "
-
-		puts "    |    |    "
-		puts "-----------------"
 
 
-	end
-	@board.show_board
 end
 
 game1 = Game.new
-
-
-
-# binding.pry
+game1.board.show_board
