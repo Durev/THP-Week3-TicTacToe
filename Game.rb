@@ -1,3 +1,8 @@
+require_relative 'Player'
+require_relative 'Board'
+require_relative 'Boardcase'
+
+
 class Game
 
 	def initialize
