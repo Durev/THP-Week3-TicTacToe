@@ -1,6 +1,7 @@
 require_relative 'Boardcase'
 
 class Board
+	attr_accessor :a1
 
 	def initialize # betterway ?
 
@@ -23,4 +24,11 @@ class Board
 		puts "-----------------"
 		puts "  #{@c1.status}  |  #{@c2.status}  |  #{@c3.status}  "
 	end
+
+	def modify_case(player, case_whatever)
+		
+
+	end
+
+
 end

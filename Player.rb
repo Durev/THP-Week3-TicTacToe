@@ -1,8 +1,10 @@
 class Player 
 
-	attr_accessor :name
+	attr_accessor :name, :type
 
-	def initialize
+	def initialize(type)
 		@name = gets.chomp
+		@type = type
 	end
+
 end
