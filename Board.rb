@@ -26,8 +26,7 @@ class Board
 	end
 
 	def modify_case(player, case_whatever)
-		
-
+		case_whatever.status = player.type
 	end
 
 

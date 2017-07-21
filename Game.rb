@@ -5,7 +5,7 @@ require 'pry'
 
 class Game
 
-	attr_accessor :board, :player1, :player2
+	attr_accessor :board, :player1, :player2, :a1
 
 	def initialize
 		#Création des 2 joueurs
@@ -23,11 +23,10 @@ class Game
 		
 	end
 
-
-
 end
 
 game1 = Game.new
+
 game1.board.show_board
 
 binding.pry
